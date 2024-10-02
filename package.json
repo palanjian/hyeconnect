@@ -1,0 +1,20 @@
+{
+  "name": "hyeconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "tailwind build src/styles.css -o public/styles.css",
+    "devstart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
